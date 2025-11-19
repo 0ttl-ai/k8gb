@@ -1,9 +1,0 @@
-autoscaling:
-  enabled: false
-# -- Expose the istio ingress gateway on port 8080
-service:
-  ports:
-  - name: http
-    port: 8080
-    protocol: TCP
-    targetPort: 8080
